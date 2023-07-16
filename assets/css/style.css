@@ -91,7 +91,7 @@ h6 {
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -427,6 +427,66 @@ section {
 
 .facts .count-box a:hover {
   color: #1f5297;
+}
+
+
+
+/*--------------------------------------------------------------
+# Interest
+--------------------------------------------------------------*/
+.Interest {
+  padding-bottom: 30px;
+}
+
+.Interest .count-box {
+  padding: 30px;
+  width: 100%;
+}
+
+.Interest .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #149ddd;
+  float: left;
+  line-height: 0;
+}
+
+.Interest .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #050d18;
+  margin-left: 60px;
+}
+
+.Interest .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #122f57;
+}
+
+.Interest .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #122f57;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.Interest .count-box a:hover {
+  color: #1f5297;
+}
+
+#skill-card {
+  object-fit:contain;
+  padding:10px 30px 10px 30px; 
+  width:100%; 
+  height:auto; 
 }
 
 /*--------------------------------------------------------------
